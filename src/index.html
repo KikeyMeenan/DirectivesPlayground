@@ -9,10 +9,11 @@
         <script src="app.js"></script>
         <script src="Home/main.controller.js"></script>
         <script src="UserCard/userInfoCard.directive.js"></script>
+        <script src="UserCard/address.directive.js"></script>
     </head>
 
-    <body ng-controller="mainCtrl">
-        <h1>Hey</h1>
-        <user-info-card> </user-info-card>
+    <body ng-controller="mainCtrl" class="container" style="margin-top:20px;">
+        <user-info-card user="user1"> </user-info-card>
+        <user-info-card user="user2"> </user-info-card>
     </body>
 </html>
